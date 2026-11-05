@@ -1,8 +1,14 @@
 {
-  "require": {
-    "pbieling/pbclasses" : "dev-main",
-	"michelf/php-markdown" : "*",
-	"ramsey/uuid" : "*",
-    "tecnickcom/tcpdf" : "6.11.3"
+  
+	"name": "pbieling/pbc-example",
+    "description": "Example project",
+    "type": "project",
+    "license": "MIT"
+	
+	"require": {
+        "pbieling/pbclasses" : "dev-main",
+	    "michelf/php-markdown" : "*",
+	    "ramsey/uuid" : "*",
+        "tecnickcom/tcpdf" : "6.11.3"
   }
 }
