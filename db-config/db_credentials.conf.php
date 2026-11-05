@@ -2,7 +2,7 @@
  return [   
      'host' => 'localhost',
      'user' => 'root',
-     'pwd' => '4zZ81sOs',
+     'pwd' => 'YOUR_PASSWORD',
      'db' => 'pbc-example'
 	 ];
 	
