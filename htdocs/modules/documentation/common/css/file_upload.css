@@ -1,0 +1,33 @@
+#dropBox{
+    border: 3px dashed #0087F7;
+    border-radius: 5px;
+    background: #F3F4F5;
+    cursor: pointer;
+}
+#dropBox{
+    min-height: 50px;
+    padding: 10px 10px;
+    box-sizing: border-box;
+}
+#dropBox p{
+    text-align: center;
+    margin: 2em 0;
+    font-size: 16px;
+    font-weight: bold;
+}
+#fileInput{
+    display: none;
+} 
+
+
+/*
+<div class="thumb_bar_item"><img src="{THUMBNAIL_PATH}" class="notregistered_image">
+*/
+.thumb_bar_item {
+    display:inline-block;
+    margin: 0 10px 0 10px;
+    font-size:12px;
+    text-align: center;
+}
+
+

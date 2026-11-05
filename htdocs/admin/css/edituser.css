@@ -1,0 +1,20 @@
+tr.row-identifier.rowmod-ON_OFF-Aus td {
+    color: silver;
+    /* text-decoration: line-through; */
+}
+
+
+
+
+.switchvalue {
+    cursor:pointer;
+}
+.switchvalue[data-fn="ON_OFF"][data-switchvalue="0"] button {
+    color:white !important;
+    background-color:red !important;
+}
+.switchvalue[data-fn="ON_OFF"][data-switchvalue="1"] button {
+    color:white !important;
+    background-color:green !important;
+}
+

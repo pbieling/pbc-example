@@ -1,0 +1,28 @@
+/* 
+    Created on : 05.09.2015, 20:05:47
+    Author     : Peter Bieling
+*/
+
+#main {
+    width:auto;
+    height:auto;
+    border: 0;
+    display:flex;
+    flex-wrap:wrap;
+}
+
+#leftcolumn {
+    width:auto;
+	height:auto;
+	border: 0;
+	padding:30px;
+}
+
+#rightcolumn {
+    width:auto;
+	height:auto;
+	padding:30px;
+        background-color:#efefef;
+        border-left:1px solid silver;
+}
+

@@ -1,0 +1,37 @@
+tr.row-identifier[data-status="OFF"] td {
+    color: silver;
+}
+tr.row-identifier[data-status="STOP"] td {
+    color: blue;
+}
+tr.row-identifier[data-status="STOP"] td[data-fn="Status"] {
+    font-weight:bold;
+    color:white;
+    background-color:blue;
+}
+
+
+
+tr.row-identifier[data-status="RUNNING"] td {
+    color: blue;
+    background-color:yellow;
+}
+tr.row-identifier[data-status="RUNNING"] td[data-fn="Heartbeat"] {
+    font-weight:bold;
+}
+
+
+tr.row-identifier[data-status="ERROR"] td {
+    color: white;
+    background-color:red;
+}
+tr.row-identifier[data-status="ERROR"] td[data-fn="Status"] {
+    font-weight:bold;
+    color:red;
+    background-color:white;
+}
+
+
+
+
+

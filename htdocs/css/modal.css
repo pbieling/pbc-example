@@ -1,0 +1,61 @@
+/*
+Modal widths
+*/
+
+.modal-dialog input {
+    max-width: 100%;
+}
+
+/* Bootstrap-dialog-widths */
+
+.modal-dialog {
+    color: black;
+    background-color:white;
+    
+    resize: both !important;
+    overflow: auto !important;
+    background-color:yellow;
+    max-height: 90% !important;
+}
+.modal-body.error {
+    color:white;
+    background-color:red;
+}
+
+
+.modal {
+    z-index: 9000 !important;
+   
+}
+.modal-backdrop.fade.show {
+    z-index:8999 !important;
+}
+
+.modal ~ .modal {
+    z-index: 10000 !important;
+}
+.modal-backdrop.fade.show  ~ .modal-backdrop.fade.show  {
+    z-index:9999 !important;
+}
+
+.modal-dialog.mdialog-xs  {
+    width:300px;
+    max-width:90%;
+}
+
+.modal-dialog.mdialog-s  {
+    width:600px;
+    max-width:90%;
+}
+.modal-dialog.mdialog-m  {
+    width:700px;
+    max-width:90%;
+}
+.modal-dialog.mdialog-l  {
+    width:1000px;
+    max-width:90%;
+}
+.modal-dialog.mdialog-xl  {
+      width:90%;
+}
+

@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<page>
+    <TopMargin>20</TopMargin>
+    <LeftMargin>20</LeftMargin>
+    <RightMargin>15</RightMargin>
+    <AutoPageBreak switch="false">40</AutoPageBreak>
+    
+</page>

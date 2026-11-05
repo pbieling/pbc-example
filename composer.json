@@ -1,0 +1,8 @@
+{
+  "require": {
+    "pbieling/pbclasses" : "dev-main",
+	"michelf/php-markdown" : "*",
+	"ramsey/uuid" : "*",
+    "tecnickcom/tcpdf" : "6.11.3"
+  }
+}

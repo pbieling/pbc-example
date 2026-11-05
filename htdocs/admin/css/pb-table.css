@@ -1,0 +1,153 @@
+/* 
+    Created on : 02.06.2016, 12:19:40
+    Author     : Peter Bieling
+*/
+.highlight-updated-row {
+    color: blue !important;
+    background-color: yellow !important;
+}
+
+/* Bootstrap-dialog-widths */
+
+.mdialog-xs .modal-dialog {
+    width:300px;
+    max-width:90%;
+}
+
+.mdialog-s .modal-dialog {
+    width:400px;
+    max-width:90%;
+}
+.mdialog-m .modal-dialog {
+    width:600px;
+    max-width:90%;
+}
+.mdialog-l .modal-dialog {
+    width:1000px;
+    max-width:90%;
+}
+.mdialog-xl .modal-dialog {
+      width:90%;
+}
+
+.chg {
+    cursor:pointer;
+}
+.chg:hover {
+    /* border: 1px solid blue;   */
+    background-color:#faebcc;
+}
+
+
+
+
+
+
+
+
+
+
+
+thead th {
+    white-space: nowrap;
+    padding: 2px 10px 2px 4px;
+    border:1px solid silver;
+    background-color:#EFEFEF;
+    vertical-align: top;
+}
+
+tbody td {
+    vertical-align: top;
+    padding:5px;
+    border: 1px solid silver;
+    /* sorgt dafür, dass Zeilenumbrüche angezeigt werden */
+    white-space: pre-line;
+}
+
+thead th span.glyphicon {
+    padding-right:10px;
+    font-size:12px;
+    font-weight:normal;
+}
+
+
+th.columnsorted-asc {
+    color: white;
+    background-color:blue;
+}
+
+
+th.columnsorted-desc {
+    color: white;
+    background-color:red;
+}
+
+button.change-row, button.remove-row {
+    font-size:10px;
+    margin-right: 5px;
+}
+
+.standardfilterbox {
+    color: black;
+    background-color:#EFEFEF;
+    padding:5px;
+    width:200px;
+    height:100px;
+    margin:5px;
+}
+.standardfilterbox button.filtersactivation {
+    display:block;
+    margin:5px;
+}
+
+
+
+.filterisactive {
+    background-color:#99defd;
+}
+
+.switchvalue {
+    cursor:pointer;
+}
+.switchvalue[data-fn="ON_OFF"][data-switchvalue="0"] {
+    color:white;
+    background-color:red;
+}
+.switchvalue[data-fn="ON_OFF"][data-switchvalue="1"] {
+    color:white;
+    background-color:green;
+}
+
+.rowmod-ON_OFF-Aus td {
+   color:silver;
+   font-size:small;
+}
+
+.switchvalue[data-fn="Status"][data-switchvalue="0"] {
+    color:white;
+    background-color:red;
+}
+.switchvalue[data-fn="Status"][data-switchvalue="1"] {
+    color:white;
+    background-color:green;
+}
+
+.rowmod-Status-Gesperrt td {
+   color:red;
+   /* font-size:small; */
+}
+
+.switchvalue[data-fn="OnOff"][data-switchvalue="0"] {
+    color:white;
+    background-color:red;
+}
+.switchvalue[data-fn="OnOff"][data-switchvalue="1"] {
+    color:white;
+    background-color:green;
+}
+.rowmod-OnOff-Aus td {
+   color:silver;
+   font-size:small;
+}
+
+

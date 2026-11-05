@@ -1,0 +1,40 @@
+/* 
+    Created on : 02.01.2018, 10:43:58
+    Author     : Peter Bieling
+*/
+#doc_content_meta {
+    width:90%;
+    border:1px solid silver;
+    min-height:100px;
+    padding:10px;
+    
+}
+
+#doc_maintext_form {
+    width:90%;
+    border:1px solid silver;
+    min-height: 100px;
+    margin-top:20px;
+    padding:10px;
+}
+
+#doc_maintext_form textarea {
+    width: 100%;
+    font-family: Courier, monospace;
+}
+
+#pb-message-container {
+    width:100%;
+    height: auto;
+    text-align: center;
+    }
+    h3#pb-action-message {
+        color:white;
+        background-color:darkgreen;
+        padding:15px;
+    }
+    h3#pb-action-message.error {
+        color:white;
+        background-color: red;
+}
+

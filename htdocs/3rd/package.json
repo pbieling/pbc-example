@@ -1,0 +1,16 @@
+{
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^7.0.0",
+    "bootstrap": "^5.3.3",
+    "bootstrap-icons": "*",
+    "bootstrap-show-modal": "*",
+    "codejar": "^4.3.0",
+    "codejar-linenumbers": "^1.0.1",
+    "jquery": "^3.7.1",
+    "jstree": "^3.3.17",
+    "markdown-text-editor": "^0.4.0",
+    "prismjs": "^1.30.0",
+    "sortablejs": "^1.15.6",
+    "toastr": "^2.1.4"
+  }
+}

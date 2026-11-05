@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<user>
+<field font="helvetica" fontsize="10" fontstyle="B" top="106" left="25" height="5" textalign="L" width="0" moveto="2"><![CDATA[{BETREFF}]]></field>
+
+<field font="helvetica" fontsize="10"  left="25" fontstyle="N" width="0" height="0" margintop="10" moveto="2"><![CDATA[{ANREDE}]]></field>
+
+<field  multiline="true"  font="helvetica" fontsize="10" html="true" left="25" fontstyle="N" width="0" height="0" margintop="5" moveto="2"><![CDATA[{BRIEFTEXT}]]></field>
+
+<field  multiline="true" font="helvetica" fontsize="10"  left="25" fontstyle="N" width="0" height="5" margintop="5" moveto="2"><![CDATA[Mit besten Grüßen
+!
+!
+!
+!
+{UNTERSCHRIFT}]]></field>
+</user>

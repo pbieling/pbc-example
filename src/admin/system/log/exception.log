@@ -1,0 +1,13 @@
+-------------------------------
+
+2026-10-31 16:54:18
+UID: 1
+Es ist ein technischer Fehler aufgetreten. Bitte wenden Sie sich an den Administrator. : D:\Projekte\entwicklung\pbc-example/src/modules/documentation/demodoc/tableconf/table_images.php is missing - Array
+(
+    [succ] => ERROR
+    [errortext] => Es ist ein technischer Fehler aufgetreten. Bitte wenden Sie sich an den Administrator.
+)
+
+D:\Projekte\entwicklung\pbc-example\vendor\pbieling\pbclasses\src\Table\Ajax\Allocator.php Line: 166
+
+

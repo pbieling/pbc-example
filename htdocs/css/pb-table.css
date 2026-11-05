@@ -1,0 +1,178 @@
+
+#toast-container > div {
+    opacity: 1 !important;
+    filter: alpha(opacity=100) !important;
+
+}
+.highlight-updated-row {
+    color: blue !important;
+    background-color: yellow !important;
+}
+
+.editable_deftable {
+    cursor:pointer;
+}
+
+
+.chg {
+    cursor:pointer;
+}
+.chg:hover {
+    /* border: 1px solid blue; */
+    background-color: yellow;
+}
+
+th.columnsorted-asc {
+    color: white;
+    background-color:blue;
+}
+
+
+th.columnsorted-desc {
+    color: white;
+    background-color:red;
+}
+
+
+.standardfilterbox {
+    color: black;
+    background-color:#EFEFEF;
+    padding:5px;
+    width:200px;
+    height:100px;
+    margin:5px;
+}
+.standardfilterbox button.filtersactivation {
+    display:block;
+    margin:5px;
+}
+
+
+
+.filterisactive {
+    background-color:#99defd;
+}
+
+.pb-table-container {
+    overflow-x:auto;
+}
+
+.pagination-container {
+    text-align: right;
+}
+
+
+
+
+div.outer-panel-container {
+    border:1px solid #cccccc;
+    border-radius:5px;
+    margin-bottom:20px;
+    margin-top:20px;
+}
+
+
+
+div.pb-panel-heading {
+    margin-bottom:10px;
+
+    background-color: white;
+    padding-left:0px;
+    padding-right: 0px;
+    padding-bottom:16px;
+    padding-top:10px;
+    border-bottom:1px solid silver;
+
+
+}
+
+
+.colinfoblock.bottomtext {
+    margin-bottom:15px;
+}
+
+.sortable {
+    cursor:pointer;
+}
+
+.input-validation-error {
+    color:red;
+
+}
+.oldvalue {
+    display:none;
+    font-size:12px;
+    color:blue;
+}
+
+.bootstrap-dialog-body input {
+    margin-bottom:20px;
+}
+.bootstrap-dialog .bootstrap-dialog-close-button button.close {
+    color:white;
+    opacity: 9.5;
+    filter: alpha(opacity=95);
+}
+
+
+.pbtable-btn-input-datetime button {
+    margin-bottom: 5px !important;
+}
+
+
+.change-row, .remove-row {
+    padding-top:0px !important;
+}
+.remove-row:hover {
+    color:red;
+}
+
+th.sortable {
+    white-space: nowrap;
+}
+
+
+tr.row-identifier.rowmod-Hide-Aus td {
+    color: silver;
+    /* text-decoration: line-through; */
+}
+
+
+
+
+.switchvalue {
+    cursor:pointer;
+}
+.switchvalue[data-fn="Hide"][data-switchvalue="1"] button {
+    color:white !important;
+    background-color:red !important;
+}
+.switchvalue[data-fn="Hide"][data-switchvalue="0"] button {
+    color:white !important;
+    background-color:green !important;
+}
+
+.switchvalue[data-fn="Home"][data-switchvalue="0"] button {
+    color:black !important;
+    background-color:silver !important;
+}
+.switchvalue[data-fn="Home"][data-switchvalue="1"] button {
+    color:white !important;
+    background-color:darkgreen !important;
+}
+.pbtbl-movehandle:hover {
+    cursor:move;
+}
+
+/* Gruppenanzeige - Zugriffsrechte */
+
+.groupmember-item {
+    display:inline-block;
+    padding:10px 20px 10px 20px;
+    background-color: lightblue;
+}
+
+.deleterowhighlight td {
+    background-color: #f5c6cb;
+}
+

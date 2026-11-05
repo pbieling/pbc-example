@@ -1,0 +1,111 @@
+#doc-bottomnavigation {
+    margin-top:40px;
+    border-top: 1px solid silver;
+}
+
+#doc-bottomnavigation-prev {
+    text-align: left;
+}
+#doc-bottomnavigation-next {
+    text-align: right;
+}
+#doc-bottomnavigation-up {
+    text-align: center;
+}
+
+#doc_searchform {
+
+    margin-bottom: 20px;
+}
+
+.doc-teaser {
+    font-weight: bold;
+    color: darkblue;
+    border: 1px solid silver;
+    background-color: #efefef;
+    padding: 10px;
+}
+
+#doc_content {
+    border-left: 2px solid silver;
+    border-top: 2px solid silver;
+    padding: 20px;
+
+}
+
+#doc-maintext {
+    min-height: 400px;
+}
+
+#doc-maintext h4 {
+    margin-top:20px;
+}
+
+#doc-child-block {
+    border-top: 1px solid darkblue;
+    padding-top:10px;
+    padding-left:30px;
+}
+#doc-child-items {
+    margin-top:10px;
+
+}
+#doc-child-items li a {
+    padding-right: 10px;
+}
+
+h5 {
+    background-color: #f7ecb5;
+}
+
+
+a[rel="external"]::after {
+    content: "↗";
+    display: inline-block;
+    margin-left: 0.3em;
+    font-size: 1em;
+    font-weight:bold;
+    line-height: 1;
+    vertical-align: middle;
+
+
+    background-color: #FFF;
+    color: silver;
+    border: 1px solid #444;
+    border-radius: 30%;
+    padding: 0 0.2em 0.1em 0.1em;
+
+}
+
+a[rel="external"]:hover::after {
+    color:blue;
+    background-color: #ddd;
+    border-color: #bbb;
+}
+
+
+
+
+#modulcontainer-commondoc[data-icnkey="fa"] a[data-filetype="pdf"]::before {
+    color:red;
+    font-family: "Font Awesome 7 Free";
+    font-weight: 200;
+    content: "\f1c1";
+    margin-right: 0.4em;
+}
+
+
+#modulcontainer-commondoc[data-icnkey="bi"] a[data-filetype="pdf"]::before {
+    content: "";
+    background-image: url("/3rd/node_modules/bootstrap-icons/icons/file-earmark-pdf.svg");
+    background-size: 1.1em 1.1em;
+    background-repeat: no-repeat;
+    display: inline-block;
+    width: 1.1em;
+    height: 1.1em;
+    margin-right: 0.2em;
+    position:relative;
+    top:0.2em;
+
+
+}

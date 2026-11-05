@@ -1,0 +1,116 @@
+/* 
+    Created on : 23.02.2017
+    Author     : Peter Bieling
+*/
+
+
+.autoload-table {
+
+    margin-bottom:30px;
+}
+
+.autoload-table table {
+    min-width: 100%;
+}
+
+
+.autoload-table[data-tabid="demo_table2"] td[data-fn="LastName"] {
+    color:blue;
+    font-weight:bold;
+}
+
+
+.autoload-table[data-tabid="demo_table3"] td[data-fn="LastName"] {
+    color:blue;
+    font-weight:bold;
+}
+
+
+.autoload-table[data-tabid="demo_table3"] tr.row-modifyer-registered-0  td {
+    color: silver;
+        background-color: white;
+    text-decoration: line-through; 
+}
+tr.rowmod-Registered-Passiv  td {
+    color: silver;
+        background-color: white;
+    text-decoration: line-through; 
+}
+
+
+
+
+.autoload-table[data-tabid="demo_table4"] td[data-fn="LastName"] {
+    color:blue;
+    font-weight:bold;
+}
+
+.autoload-table[data-tabid="demo_table4"] tr.row-modifyer-registered-0  td {
+    color: silver;
+        background-color: white;
+    text-decoration: line-through; 
+}
+
+.filteronoff.glyphicon-minus-sign {
+    color: red;
+}
+.filteronoff.glyphicon-plus-sign {
+    color: green;
+}
+[data-filtername] {
+   padding:6px; 
+}
+
+.sendbuttonselection.switchfilteroffselection.btn-primary {
+    background-color: #0ff;
+    color:black;
+}
+
+.glyphicon-plus-sign {
+    cursor:pointer;
+}
+
+
+.switchvalue {
+    cursor:pointer;
+}
+.switchvalue[data-fn="Registered"][data-switchvalue="0"] {
+    color:white;
+    background-color:red;
+}
+.switchvalue[data-fn="Registered"][data-switchvalue="1"] {
+    color:white;
+    background-color:green;
+}
+
+
+.autoload-table[data-tabid="demo_table_feedback2"] table {
+    min-width:300px; 
+    max-width: 600px !important;
+    border:1px solid silver;
+    border-collapse: separate;
+}
+
+.feedback-entry {
+    white-space: pre-line;
+    font-family: Helvetica, Arial, sans-serif;
+    background-color:#EFEFEF;
+    padding-left:30px;
+    padding-right:20px;
+    border-left:20px solid white;
+    border-right:10px solid white;
+    border-bottom:5px solid white;
+
+}
+
+.td_FirstName {
+    padding-top:20px;
+}
+
+h4.demoheader {
+    margin-bottom:20px;
+}
+
+
+
+

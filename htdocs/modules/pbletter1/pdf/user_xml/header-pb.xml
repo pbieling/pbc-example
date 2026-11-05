@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<header>
+<field type="image" left="120" top="12" width="75">pixelwerk.png</field>
+<field top="47" left="25" font="helvetica" fontsize="6.5" fontstyle="N" width="0" textalign="L" height="3.7">PixelWerk · Pixelstraße 12 · 12345 Canvas</field>
+<field multiline="true" top="60" left="25" font="helvetica" fontsize="10" fontstyle="N" width="90" height="5"><![CDATA[{ANSCHRIFT}]]></field>
+
+#<field top="25" left="121.2" multiline="true" font="courier" fontsize="10" fontcolor="60,60,60" fontstyle="N" width="0" textalign="R" height="5" valign="B" moveto="2">Projektplanung
+#und Programmierung
+#für KMU, Freiberufler
+#und Vereine</field>
+
+
+<field left="130" top="50" font="helvetica" fontsize="9" fontstyle="N" width="30" textalign="R" height="5" moveto="0">Ihr Ansprechpartner:</field>
+<field left="165" width="0"  height="5" moveto="2"><![CDATA[{MITARBEITER_NAME}]]></field>
+<field left="130" width="30" textalign="R" height="5" moveto="0">Telefon:</field>
+<field left="165" width="0"  height="5" moveto="2"><![CDATA[{MITARBEITER_TELEFON}]]></field>
+<field left="130" width="30" textalign="R" height="5" moveto="0">E-Mail:</field>
+<field left="165" width="0"  height="5" moveto="2"><![CDATA[{MITARBEITER_EMAIL}]]></field>
+<field left="130" width="30" textalign="R" height="5" moveto="0">Vorgangsnummer:</field>
+<field left="165" width="0"  height="5" moveto="2"><![CDATA[{VORGANGSNUMMER}]]></field>
+<field left="130" width="30" textalign="R" height="5" moveto="0">Abteilung:</field>
+<field left="165" width="0"  height="5" moveto="2"><![CDATA[{ABTEILUNG}]]></field>
+<field left="150" font="helvetica" fontsize="10" fontstyle="N" width="0" textalign="L" height="7" margintop="10" moveto="2">Canvas, den {BRIEFDATUM}</field>
+</header>

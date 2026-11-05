@@ -1,0 +1,9 @@
+[main]
+<?xml version="1.0"?>
+<user>
+<field type="image" top="{TOP1}" left="{LEFT}" width="50">etikett-marmelade2.png</field>
+
+<field font="helvetica" top="{TOP2}" left="{LEFT}" multiline="true" height="8" fontsize="18" fontstyle="B" textalign="C" width="50" moveto="0"><![CDATA[{SORTE}]]></field>
+
+<field font="helvetica" top="{TOP3}" left="{LEFT}" fontsize="10" fontstyle="N" width="50" textalign="C" height="10" moveto="0"><![CDATA[{DATUM}]]></field>
+</user>

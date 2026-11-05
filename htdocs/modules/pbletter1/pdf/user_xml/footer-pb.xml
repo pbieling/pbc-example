@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<footer>
+<!-- Die Seitennummerierung wird nur gesetzt, wenn es mehr als eine Seite gibt no1no="true" -->
+<field top="264" type="page" no1no="true" height="3" textalign="R" width="0" font="helvetica"  fontsize="8" fontstyle="B">Seite {PAGE_NUMBER} von {:ptp:}</field>
+
+<field top="269" fontcolor="150,150,150" textalign="C" left="0" font="helvetica" fontsize="8.5" fontstyle="N" width="0" height="1" bordercolor="150,150,150" border="T"></field>
+
+ 
+
+<field multiline="true" top="272" left="25" textalign="L" font="helvetica" fontcolor="150,150,150" fontsize="8" fontstyle="N" width="40" height="0">PixelWerk
+Pixelstraße 12
+12345 Canvas</field>
+
+<field multiline="true" top="272" left="67" fontcolor="150,150,150" textalign="L" width="40" height="0">Tel. +49 12345678-01
+harry@webmaster.it</field>
+
+<field multiline="true" top="272" left="107" fontcolor="150,150,150" textalign="L" width="50" height="0">Pixelbank Germany
+IBAN DE00 1234 1234 1234 **** 00
+BIC ABCABCDE</field>
+
+<field multiline="true" top="272" left="159" fontcolor="150,150,150" textalign="L" width="40" height="0">USt-IdNr.: 
+DE0123456789</field>
+</footer>
