@@ -85,7 +85,7 @@ Alternatively, you can use the PHP test server, but it does not run as fast as t
 
 ```bash
 cd pbc-example/
-php -S localhost:8000 -t pbc-example/ router.php
+php -S localhost:8000 -t htdocs/ router.php
 ```
 Support for the Nginx web server is in preparation. I ask for a little patience.
 
