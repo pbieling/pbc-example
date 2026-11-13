@@ -1,13 +1,13 @@
 {
     "name": "pbieling/pbc-example",
-    "description": "Example project",
+    "description": "Example project using PbClasses",
     "type": "project",
     "license": "MIT",
 
     "require": {
-        "pbieling/pbclasses": "dev-main",
-        "michelf/php-markdown": "*",
-        "ramsey/uuid": "*",
+        "pbieling/pbclasses": "^0.3.0",
+        "michelf/php-markdown": "^2.0.0",
+        "ramsey/uuid": "^4.9.4",
         "tecnickcom/tcpdf": "6.11.3"
     }
 }
