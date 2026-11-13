@@ -34,7 +34,7 @@ Installation
 
 The easiest way to start the installation is by using Composer:
 ```bash
-composer create-project pbieling/pbc-example pbc-example
+composer create-project pbieling/pbc-example pbc-example --stability dev
 ```
 Or you can clone or download the repository from github.
 ```bash
