@@ -1,0 +1,32 @@
+services:
+  web:
+    image: pbc-example-docker:1
+
+    ports:
+      - "8888:80"
+    depends_on:
+      - mysql
+    volumes:
+     - ./pbc-example:/var/www/pbc-example
+
+  mysql:
+    image: mysql:8.1.0
+    environment:
+      MYSQL_ROOT_PASSWORD: password
+      MYSQL_DATABASE: pbc-example
+    command: --innodb-flush-log-at-trx-commit=2
+    volumes:
+      - mysql_data:/var/lib/mysql
+      - ./pbc-example/database:/docker-entrypoint-initdb.d:ro
+  phpmyadmin:
+    image: phpmyadmin/phpmyadmin
+    ports:
+      - "8080:80"
+    depends_on:
+      - mysql
+    environment:
+      PMA_HOST: mysql
+ 
+volumes:
+  mysql_data:
+  

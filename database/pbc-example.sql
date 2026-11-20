@@ -93,7 +93,7 @@ CREATE TABLE `demodoc__doc_images_index` (
   `ImgH` smallint NOT NULL,
   `ImgAlt` varchar(50) COLLATE utf8mb4_0900_ai_ci NOT NULL DEFAULT '',
   `ImgDescr` varchar(255) COLLATE utf8mb4_0900_ai_ci NOT NULL,
-  `CrDate` date NOT NULL DEFAULT '0000-00-00',
+  `CrDate` date NOT NULL DEFAULT (CURRENT_DATE),
   `Location` varchar(100) COLLATE utf8mb4_0900_ai_ci NOT NULL,
   `Updated` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
   `Author` varchar(100) COLLATE utf8mb4_0900_ai_ci NOT NULL,
@@ -593,11 +593,11 @@ CREATE TABLE `pbtask__tasks_list1` (
   `Description` varchar(100) CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci NOT NULL DEFAULT '',
   `TaskClass` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci NOT NULL DEFAULT '',
   `Minutes` int NOT NULL DEFAULT '1440',
-  `Nextrun` datetime NOT NULL DEFAULT '0000-00-00 00:00:00',
-  `LastStart` datetime NOT NULL DEFAULT '0000-00-00 00:00:00',
+  `Nextrun` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  `LastStart` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP,
   `Status` enum('ON','OFF','RUNNING','ERROR','STOP') CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci NOT NULL DEFAULT 'OFF',
-  `Finished` datetime NOT NULL DEFAULT '0000-00-00 00:00:00',
-  `Heartbeat` datetime NOT NULL DEFAULT '0000-00-00 00:00:00',
+  `Finished` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  `Heartbeat` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP,
   `Fingerprint` varchar(50) CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci NOT NULL DEFAULT ''
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 

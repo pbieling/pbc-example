@@ -1,8 +1,8 @@
 <?php
  return [   
-     'host' => 'localhost',
+     'host' => 'mysql', // 'localhost'
      'user' => 'root',
-     'pwd' => 'YOUR_PASSWORD',
+     'pwd' => 'password',
      'db' => 'pbc-example'
 	 ];
 	

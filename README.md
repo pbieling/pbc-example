@@ -28,9 +28,18 @@ Requirements
 - Composer (to install the PHP dependencies)
 - npm (to install the JavaScript packages)
 
-Installation
+
+Installation with Docker
+----------------------- 
+There is dedicated documentation for installing the demo version in a Docker development environment. For developers with Docker experience, the installation should be very straightforward.
+
+Please start by reading [Installation with Docker](docs/docker-installation.md) and then return here.
+
+
+
+Installation without Docker
 ------------
-### Repository und dependencies
+### Repository and dependencies
 
 The easiest way to start the installation is by using Composer:
 ```bash
@@ -64,12 +73,15 @@ Configuration
 ```php
  <?php
  return [   
-     'host' => 'localhost',
+     'host' => 'mysql' //'localhost',
      'user' => 'root',
      'pwd' => 'password',
      'db' => 'pbc-example'
 	 ];
 ```
+
+Note: The Docker demo version works with this test configuration and the host 'mysql' without any modifications. (See *Installation with Docker* above.) For other types of installations, the host must be adjusted—for example, to 'localhost'.
+
 
 ### Webserver configuration
 
@@ -202,7 +214,7 @@ Limitations and next steps
 
 Additional documentation pages will be published gradually in the docs folder.
 
-The multilingual functionality for the demo has only been partially implemented so far, and as a result, it is currently available only in German. However, it should be sufficient to allow one to understand how it works.
+The multilingual functionality for the demo has only been partially implemented so far, and as a result, some parts are available only in German. However, it should be sufficient to allow one to understand how it works.
 
 A static website generator—also a very useful feature—is currently missing. I am in the process of revising the code and will add it to the demo and the framework as soon as possible.
 
