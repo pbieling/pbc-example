@@ -17,7 +17,7 @@ A `Dockerfile` and a `docker-compose.yml` are provided, which you can adapt to y
    cd pbc-example/htdocs/3rd
    npm install
    ```
-5. Copy the `Dockerfile` and `docker-compose.yml` files from the `documentation/docker-example` directory into the root folder `pbc-docker-project` and navigate to that directory.
+5. Move the `Dockerfile` and `docker-compose.yml` files from the `pbc-example` directory into the root folder `pbc-docker-project` and navigate to that directory.
 6. Build the Docker image using the command:
    ```bash
    docker build -t pbc-example-docker:1 -f ./Dockerfile .
@@ -26,7 +26,7 @@ A `Dockerfile` and a `docker-compose.yml` are provided, which you can adapt to y
    ```bash
    docker compose up -d
    ```
-8. Open the `pbc-example` application in your browser at <http://localhost:8888> (User: `admin`, Password: `admin`).
+8. Open the **pbc-example App** in your browser at <http://localhost:8888> (User: `admin`, Password: `admin`).
 9. Open **phpMyAdmin** at <http://localhost:8080> (User: `root`, Password: `password`).
 
 ## Final Notes on the Installation Process
